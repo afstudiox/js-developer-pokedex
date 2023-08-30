@@ -7,6 +7,19 @@ body {
     background-color: #f6f8fc;
 }
 
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container img {
+    padding: 1rem;
+    width: 150px;
+    cursor: pointer;
+}
+
 .content {
     width: 100vw;
     height: 100vh;
@@ -20,5 +33,10 @@ body {
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
+    }
+
+    .header-container img {
+        width: 200px;
+        margin-top: 1rem;
     }
 }
